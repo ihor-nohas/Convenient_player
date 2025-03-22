@@ -1,0 +1,68 @@
+object Form4: TForm4
+  Left = 264
+  Top = 243
+  BorderStyle = bsDialog
+  Caption = #1044#1086#1076#1072#1074#1072#1085#1085#1103' '#1087#1086#1089#1080#1083#1072#1085#1085#1103
+  ClientHeight = 90
+  ClientWidth = 385
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object sLabel1: TsLabel
+    Left = 8
+    Top = 8
+    Width = 102
+    Height = 13
+    Caption = #1055#1086#1089#1080#1083#1072#1085#1085#1103' '#1085#1072' '#1087#1086#1090#1110#1082':'
+  end
+  object sButton1: TsButton
+    Left = 294
+    Top = 56
+    Width = 83
+    Height = 25
+    Caption = #1042#1110#1076#1084#1110#1085#1072
+    TabOrder = 0
+    OnClick = sButton1Click
+    SkinData.SkinSection = 'BUTTON'
+  end
+  object sButton2: TsButton
+    Left = 195
+    Top = 56
+    Width = 83
+    Height = 25
+    Caption = #1044#1086#1076#1072#1090#1080
+    TabOrder = 1
+    OnClick = sButton2Click
+    SkinData.SkinSection = 'BUTTON'
+  end
+  object sEdit1: TsEdit
+    Left = 8
+    Top = 24
+    Width = 369
+    Height = 21
+    Color = 1710618
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = 10329501
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    SkinData.SkinSection = 'EDIT'
+    BoundLabel.Indent = 0
+    BoundLabel.Font.Charset = DEFAULT_CHARSET
+    BoundLabel.Font.Color = clWindowText
+    BoundLabel.Font.Height = -11
+    BoundLabel.Font.Name = 'MS Sans Serif'
+    BoundLabel.Font.Style = []
+    BoundLabel.Layout = sclLeft
+    BoundLabel.MaxWidth = 0
+    BoundLabel.UseSkinColor = True
+  end
+end

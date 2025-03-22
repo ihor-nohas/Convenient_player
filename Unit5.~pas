@@ -1,0 +1,26 @@
+unit Unit5;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, acPNG, ExtCtrls, acImage, StdCtrls, sLabel, sPanel;
+
+type
+  TForm5 = class(TForm)
+    sImage1: TsImage;
+    sLabel1: TsLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form5: TForm5;
+
+implementation
+
+{$R *.dfm}
+
+end.
